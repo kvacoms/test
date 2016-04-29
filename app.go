@@ -13,8 +13,8 @@ func Index(w http.ResponseWriter, r *http.Request, _ httprouter.Params) {
 }
 
 func Hello(w http.ResponseWriter, r *http.Request, ps httprouter.Params) {
-	fmt.Println(ps.ByName("name"))
 	fmt.Fprintf(w, "Оценка: %s!\n", ps.ByName("name"))
+	fmt.Println("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
 }
 
 func main() {
