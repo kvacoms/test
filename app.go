@@ -10,6 +10,7 @@ import (
 
 func Index(w http.ResponseWriter, r *http.Request, _ httprouter.Params) {
 	fmt.Fprint(w, "Welcome!\n")
+	fmt.Println(ps.ByName("name"))
 }
 
 func Hello(w http.ResponseWriter, r *http.Request, ps httprouter.Params) {
