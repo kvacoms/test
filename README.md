@@ -1,3 +1,4 @@
-echo "nazilovo";
-hello world!!!+
+
+echo "nazilovo" ha-ha-ha;
+hello world!!! +
 Hello, World!!!
