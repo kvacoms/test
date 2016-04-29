@@ -1,4 +1,2 @@
-
-echo "nazilovo" ha-ha-ha;
+echo "nazilovo" ha-ha;
 hello world!!! ++
-Hello, World!!!
